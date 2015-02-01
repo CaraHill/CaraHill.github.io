@@ -111,18 +111,23 @@ READ ME PAGE
 }
 
 .gallery li {
-  float: left;
-  width: 45%;
   margin: 2.5%;
   background-color: #FFBD83;
   color: #470C3B;
 }
 
+.gallery img {
+  display: block;
+  margin: 0 auto;
+}
+
 .gallery li a p {
   margin: 0;
   padding: 5%;
+  padding-top: 1%;
   font-size: 0.75em;
   color: #470C3B;
+  text-align: center;
 }
 
 .blogtext {
