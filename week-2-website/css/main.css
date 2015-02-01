@@ -1,0 +1,228 @@
+/************************
+GENERAL
+*************************/
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+#wrapper {
+  max-width:940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+#blog-title {
+  margin: 0 0 1em 0;
+  color: #fff;
+}
+
+/************************
+HEADING
+*************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  margin: 15px 0;
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/************************
+NAVIGATION
+*************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/************************
+FOOTER
+*************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #000;
+}
+
+
+
+/************************
+READ ME PAGE
+*************************/
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #FFBD83;
+  color: #470C3B;
+}
+
+.gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #470C3B;
+}
+
+.blogtext {
+  font-family: 'Playfair Display', serif;
+  color: #470C3B;
+}
+
+
+/************************
+ABOUT ME PAGE
+*************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+h3 {
+  color: #470c3B;
+}
+
+p {
+  color: #470c3B;
+}
+
+
+/************************
+PAGE: CONTACT
+*************************/
+
+.contactdeets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contactdeets a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contactdeets li.tumblr a {
+  background-image: url('../img/tumblr-logo.jpg');
+}
+
+.contactdeets li.instagram a {
+  background-image: url('../img/instagram-logo2.jpg');
+}
+
+.contactdeets li.twitter a {
+  background-image: url('../img/twitter-logo.png');
+}
+
+
+
+/************************
+COLOURS
+*************************/
+
+/* site body */
+body {
+  background-color: #FFBD83;
+  color: #999;
+}
+
+/* purple header */
+header {
+  background: #C0576F;
+  border-color: #470C3B;
+  border-width: 3px;
+  border-style: solid;
+}
+
+/* nav background on mobile devices */
+nav {
+  background: #C0576F;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+a{
+  color: #470C3B;
+}
+
+/* nav links */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav links */
+nav a.selected, nav a:hover {
+  color: #7F2F56;
+}
+
