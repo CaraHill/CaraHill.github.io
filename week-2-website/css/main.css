@@ -149,9 +149,13 @@ p {
   color: #470c3B;
 }
 
+#tumblrlink:hover {
+  color: #C0576F;
+}
+
 
 /************************
-PAGE: CONTACT
+CONTACT ME PAGE
 *************************/
 
 .contactdeets {
@@ -180,6 +184,10 @@ PAGE: CONTACT
 
 .contactdeets li.twitter a {
   background-image: url('../img/twitter-logo.png');
+}
+
+.contactdeets a:hover {
+  color: #C0576F;
 }
 
 
