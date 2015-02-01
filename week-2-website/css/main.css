@@ -22,7 +22,9 @@ img {
 
 #blog-title {
   margin: 0 0 1em 0;
-  color: #fff;
+  color: #7F2F56;
+  font-size: 1.75em;
+  font-weight: 800;
 }
 
 /************************
@@ -152,6 +154,7 @@ p {
 #tumblrlink:hover {
   color: #C0576F;
 }
+
 
 
 /************************
