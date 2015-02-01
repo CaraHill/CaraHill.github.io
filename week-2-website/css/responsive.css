@@ -5,6 +5,10 @@
     width: 45%;
   }
 
+  .gallery {
+    overflow: auto;
+  }
+
   .profile-photo {
     float: left;
     margin: 0 5% 80px 0;
