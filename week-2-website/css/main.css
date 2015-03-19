@@ -169,7 +169,7 @@ p {
 }
 
 #tumblrlink:hover {
-  color: #C0576F;
+  color: #FFF;
 }
 
 
@@ -207,7 +207,7 @@ CONTACT ME PAGE
 }
 
 .contactdeets a:hover {
-  color: #C0576F;
+  color: #FFF;
 }
 
 
@@ -261,14 +261,15 @@ OVERLAY
 *************************/
 
 #overlay {
- background:0,0,0,0.7;
- width:100%;
- height:100%;
- position: fixed;
- top:0;
- left:0;
- display: none;
- text-align:center;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.75);
+  width:100%;
+  height:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  display: none;
+  text-align:center;
 }
 
 #overlay img {
